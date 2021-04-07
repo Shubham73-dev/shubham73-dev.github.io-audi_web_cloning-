@@ -1,0 +1,575 @@
+/* Global CSS */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/* helping classes */
+.w-100{
+    width:100%;
+}
+.row{
+    display:flex;
+}
+/* generic css */
+/* topbar */
+#header{
+    padding-top: 12px;
+}
+/* main-content */
+#main-content{
+    margin-bottom: 5%;
+}
+/* Footer */
+#footer{
+    background-color: #F2F2F2;
+}
+.footer_wrapper{
+    width:90%;
+    margin:0 auto;
+}
+.down_footer{
+    background-color: #4C4C4C;
+    width:100%;
+    height: 400px;
+    color: grey;
+    padding: 25px;
+}
+.down_footer p{
+    text-align: justify;
+}
+/* specific CSS */
+/* menu */
+.menu{
+    width:16%;
+    text-align: end;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.menu a{
+    display:block;
+    color:black;
+    padding-top: 20px;
+}
+/* nav */
+.nav{
+    width:25%;
+    padding-top: 20px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.nav ul{
+    display:flex;
+    justify-content: space-around;
+    width:93%;
+}
+.nav ul li{
+    width:20px;
+    display:inline-block;
+    text-align: right;
+}
+.nav ul li a{
+    color: black;
+    display:block;
+}
+/* search */
+.search{
+    width:30%;
+    font-size: 18px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+.search a{
+    display:block;
+    color:black;
+}
+/* logo */
+.logo{
+    width:33%;
+    text-align: center;
+}
+.logo img{
+    width:20%;
+    height:62.33px;
+}
+.logo a{
+    display:block;
+    height: inherit;
+}
+
+/* section-1 */
+
+.section-1{
+    margin-bottom: 10px;
+}
+.banner-1{
+    position:relative;
+}
+.text-1{
+    position:absolute;
+    top:65%;
+    left:69%;
+    color:white;
+}
+.text-1 span{
+    font-weight: bold;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.btn{
+    height: 12%;
+    width: 16%;
+    background-color: black;
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    background-color: white;
+}
+.btn a{
+    color:black;
+    display:block;
+    height:100%;
+}
+.btn span{
+    font-size: 18px;
+    position: absolute;
+    top:27%;
+    left:28%;
+}
+.btn:hover a{
+   background-color: #B3B3B3;
+}
+.btn-2{
+    height: 12%;
+    width: 16%;
+    position: absolute;
+    right: 3%;
+    bottom: 10%;
+    background-color: transparent;
+}
+.btn-2 a{
+    color:white;
+    display:block;
+    height:100%;
+    border:1px solid white;
+}
+.btn-2 span{
+    font-size: 18px;
+    position: absolute;
+    top:27%;
+    left:22%;
+}
+.btn-2:hover a{
+    color: grey;
+    border-color: gray;
+ }
+/* section-2 */
+.section-2{
+    margin-bottom: 10px;
+}
+.banner-2{
+    position:relative;
+}
+.title-sedan{
+    position:absolute;
+    bottom:26%;
+    left:3%;
+    text-transform:capitalize;
+    color:white;
+    height:60px;
+    width:34%;
+    text-align: left;
+}
+.title-sedan span{
+    font-weight: bold;
+    font-size: 44px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom:1px;
+    left:0px;
+}
+.left-btn{
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom:10%;
+    left:3%;
+    height:10%;
+    width:15%;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align:center;
+}
+.left-btn a{
+    display:block;
+    height:81%;
+    padding-top: 10px;
+    color:black;
+}
+.right-btn{
+    background-color: #transparent;
+    position: absolute;
+    bottom:10%;
+    left:19%;
+    height:10%;
+    width:15%;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align:center;
+    border:1px solid white;
+}
+.right-btn a{
+    display:block;
+    height:81%;
+    padding-top: 12px;
+    color:white;
+}
+.right-btn:hover{
+    border-color: #919A9F;   
+}
+.right-btn:hover a{
+    color:#919A9F;
+}
+/* section-3 */
+.section-3{
+    margin-bottom: 6%;
+}
+#audi_carousel{
+    width:200%;
+}
+.slide{
+    display:inline-flex;
+    width:14%;
+    justify-content: space-around;
+}
+.slide a:hover{
+    transform:scale(1.05,1.05);
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+.slide img{
+    width:100%;
+}
+.slide a{
+    display:block;
+    color: black;
+    text-align: center;
+    font-weight: 100;
+}
+.slide span{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.model{
+    text-transform: capitalize;
+    width:95%;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+.model span{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+/* .mar-q{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: red;
+    font-family: sans-serif;
+} */
+/* section-4 */
+.section-4{
+    margin-bottom: 7%;
+}
+.grid-banner_top img{
+    width:100%;
+    height:100%;
+}
+.grid-banner_top{
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+.ban-1{
+    grid-area: 1/1/2/2;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.ban-2{
+    grid-area: 1/2/2/3;
+    margin-bottom: 7px;
+}
+.grid-banner_bottom img{
+    width:100%;
+    height:100%;
+}
+.grid-banner_bottom{
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+.ban-3{
+    grid-area: 1/1/2/2;
+    margin-right: 9px;
+}
+.ban-4{
+    grid-area: 1/2/2/3;
+}
+/* scale_anim */
+.ban {
+    position: relative;
+}
+.ban:after, .ban:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255,255,255,0.5);
+    transform: scale(1,0);
+}
+.ban::before {
+    transform: scale(0,1);
+}
+.ban:hover:after,
+.ban:hover::before {
+    transition: 1s;
+    transform: scale(1,1);
+    opacity: 0;
+}
+/* section-5 */
+.section-5_wrapper img{
+    width:100%;
+    height: inherit;
+    margin-bottom: 12px;
+}
+.section-5_wrapper{
+    display:flex;
+    justify-content:space-around;
+    width: 1420px;
+    margin:0 auto;
+}
+.img-1{
+    width:33%
+}
+.img-2{
+    width:33%
+}
+.img-3{
+    width:33%
+}
+.img-3 img{
+    height: 264px;
+}
+.section-5 a{
+    display:block;
+    color:black;
+}
+.section-5 a span{
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    display:block;
+    margin-bottom: -17px;
+}
+.section-5 a span i{
+    margin-left:30px ;
+}
+.section-5 .scale  img:hover{
+    transform: scale(1.1,1.1);
+}
+/* section-6 */
+.section-6{
+    margin-top: 50px;
+}
+.div{
+    width:100%;
+    height:100vh;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.div_1{
+    background-image: url("https://i.pinimg.com/originals/90/57/be/9057bef8d963d02b5b08144864925447.jpg");
+    }
+.div_2{
+    background-image:url("https://i.pinimg.com/originals/44/7c/82/447c82bf2cd1a8ff2bd9e726664aa4c3.jpg");
+    }
+/* .div_3{
+    background-image:url("https://wallpapercave.com/wp/wp1910388.jpg");
+} */
+.div_4{
+    background-image:url("https://www.pxwall.com/wp-content/uploads/2019/03/Audi-R8-Photo.jpg");
+}
+/* .div_5{
+    background-image:url("https://cdn.wallpapersafari.com/98/39/1WEDUc.jpg");
+} */
+.div_6{
+    background-image:url("https://www.highreshdwallpapers.com/wp-content/uploads/2014/04/Sleek-Sporty-Audi-Sports-Car-Wallpaper.jpg");
+}
+.div_7{
+    background-image:url("https://www.wallpapertip.com/wmimgs/3-39908_audi-car-wallpapers-hd-free-audi-a8-2011.jpg");
+}
+/* .div_8{
+    background-image:url("https://www.teahub.io/photos/full/109-1095287_audi-r8-2013-wallpaper-audi-r8-high-resolution.png");
+} */
+/* .div_9{
+    background-image:url("https://i.ytimg.com/vi/8px7iF521T8/maxresdefault.jpg");
+} */
+/* .div_10{
+    background-image:url("https://www.wallpapertip.com/wmimgs/41-413210_audi-racing-cars-uhd-wallpapers-ultra-high-definition.jpg");
+} */
+.div_11{
+    background-image: url("https://www.desktopbackground.org/download/o/2013/10/24/659227_high-resolution-sports-car-red-audi-r8-wallpapers-hd-10-full-size_1920x1080_h.jpg");
+}
+.section-6{
+    margin-bottom: 100px;
+}
+/* section-7 */
+.section-7{
+
+}
+.row_7{
+    display:flex;
+}
+.part-1{
+    width:50%;
+    background-color: #F2F2F2;
+    text-align: center;
+    position: relative;
+}
+.heading{
+    text-align: left;
+    width:75%;
+    margin:0 auto;
+    position: absolute;
+    top:8%;
+    left:8%;
+}
+.heading span{
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.para{
+    text-align: left;
+    width:75%;
+    margin:0 auto;
+    position: absolute;
+    top:26%;
+    left:8%;
+}
+.para span{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.inpt{
+    position: absolute;
+    top:36%;
+    left:8%;
+    width:85%;
+}
+.inpt input[type="text"]{
+    width:100%;
+    border-color: transparent  transparent black;
+    background-color:transparent ;
+    font-size: 19px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+}
+.search-btn{
+    text-align: center;
+    width:29%;
+    margin:0 auto;
+    position: absolute;
+    top:45%;
+    left:8%;
+    height:52px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.search-btn:hover{
+    /* background-color: darkgray; */
+    opacity: 0.7;
+    cursor: pointer;
+}
+.search-btn span{
+        display:block;
+        margin-top: 6%;
+}
+.part-2{
+    width:50%;
+}
+.part-2 img{
+    width:100%;
+}
+.part-2 a{
+    display: block;
+}
+.row-uf{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    height:350px;
+}
+.row-uf a{
+    color:black;
+    text-transform: capitalize;
+}
+.row-uf a h2{
+    font-weight:bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display:block;
+    margin-bottom: 22px;
+    font-family: sans-serif;
+}
+.row-uf li{
+    margin-bottom: 13%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.list-1{
+    width:15%;
+}
+.list-2{
+    width:15%;
+}
+.list-3{
+    width:15%;
+}
+.list-4{
+    width:15%;
+}
+.down_footer span{
+    color: whitesmoke;
+}
+.down_footer hr{
+    margin-bottom: 25px;
+}
+.down_footer p{
+    font-size: 14px;
+}
+
+
+
+
